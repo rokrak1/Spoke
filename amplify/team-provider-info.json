@@ -1,0 +1,30 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-spokebackend-staging-171414-authRole",
+      "UnauthRoleArn": "arn:aws:iam::615176764958:role/amplify-spokebackend-staging-171414-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::615176764958:role/amplify-spokebackend-staging-171414-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-spokebackend-staging-171414-deployment",
+      "UnauthRoleName": "amplify-spokebackend-staging-171414-unauthRole",
+      "StackName": "amplify-spokebackend-staging-171414",
+      "StackId": "arn:aws:cloudformation:us-east-1:615176764958:stack/amplify-spokebackend-staging-171414/36d42380-8c53-11ed-8967-12e819490f2d",
+      "AmplifyAppId": "d25tw5tzwrq27m",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-spokebackend-staging-171414-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "Spokebackend": {}
+      },
+      "function": {
+        "SpokebackendPostConfirmation": {
+          "deploymentBucketName": "amplify-spokebackend-staging-171414-deployment",
+          "s3Key": "amplify-builds/SpokebackendPostConfirmation-7379486b434d676d514c-build.zip"
+        }
+      },
+      "api": {
+        "Spokebackend": {}
+      }
+    }
+  }
+}
